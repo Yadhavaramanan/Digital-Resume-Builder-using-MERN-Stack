@@ -1,0 +1,154 @@
+/* Body Background */
+body {
+  background-image: url('../img/image.avif');
+  background-size: cover; /* Ensures background covers the entire page */
+  background-position: center;
+  margin: 0;
+  padding: 1%;
+  margin-top: 5%;
+  text-align: center;
+  box-sizing: border-box; 
+  /* Keeps padding within the page width */
+  color: white;
+}
+
+/* Home Page Styling */
+.home-page {
+  padding: 10%;
+  background-size: 120%;
+  background-position: center;
+  overflow: hidden;
+  text-shadow: -13px 15px 6px rgba(54, 38, 56, 0.3);
+  color: hwb(293 93% 4%);
+}
+
+/* Start Button */
+.start-button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background-color: #f8b500;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #f5f5fa;
+  transition: background-color 0.3s;
+  border-radius: 10%;
+}
+
+.start-button:hover {
+  background-color: #9a898e;
+  
+}
+
+/* Template Selection Section */
+.template-selection {
+  box-sizing: border-box;
+  padding: 1%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* Template Grid Layout */
+.template-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Template Card */
+.template-card {
+  cursor: pointer;
+  border: 1px solid #f5f5fa;
+  padding: 10px;
+  width: 200px;
+  transition: transform 0.2s;
+  background-color: hsl(293, 9%, 37%);
+  border-radius: 10%;
+  box-shadow: white;
+}
+
+.template-card:hover {
+  transform: scale(1.05);
+  background-color: #94777f;
+}
+
+.template-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Resume Builder Container */
+.resume-builder {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #4f4751;
+  color: white;
+  border-radius: 10%;
+}
+
+/* Resume Builder Header */
+.resume-builder h1 {
+  text-align: center;
+  margin: 5%;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+/* Resume Builder Form */
+.resume-builder form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.resume-builder label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.resume-builder input,
+.resume-builder textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid hsl(254, 6%, 56%);
+  background-color: #aaaaae;
+}
+
+/* Resume Builder Button */
+.resume-builder button {
+  padding: 10px;
+  border: none;
+  background-color: #f5b316;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.resume-builder button:hover {
+  background-color: #8e8b82;
+  box-shadow: white;
+}
+
+/* Resume Preview Section */
+.resume-preview {
+  margin-top: 40px;
+  border-radius: 100%;
+}
+
+/* Preview Content Styling */
+.preview-content {
+  border: 1px solid hsl(0, 11%, 86%);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #49484d;
+  color: #fefefe;
+}
+
+.preview-content h3,
+.preview-content h4 {
+  margin-top: 0;
+}
