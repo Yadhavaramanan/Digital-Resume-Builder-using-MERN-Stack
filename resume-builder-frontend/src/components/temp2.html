@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern Resume</title>
+    <style>
+        body { font-family: 'Verdana', sans-serif; margin: 20px; background-color: #f4f4f4; }
+        h1 { color: #333; }
+        h2 { color: #666; }
+        .container { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .section { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{name}</h1>
+        <p><strong>Email:</strong> {email}</p>
+        <p><strong>Phone:</strong> {phone}</p>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <p>{experience}</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p>{education}</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <p>{skills}</p>
+        </div>
+    </div>
+</body>
+</html>

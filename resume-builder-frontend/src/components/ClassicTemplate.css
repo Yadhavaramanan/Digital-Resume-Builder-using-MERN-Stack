@@ -1,0 +1,14 @@
+.resume-template.classic {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    border: 1px solid #333;
+  }
+  .resume-template h1, .resume-template h2 {
+    color: #333;
+  }
+  .resume-template p {
+    font-size: 14px;
+  }
+  
